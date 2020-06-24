@@ -1,0 +1,43 @@
+---
+title: "Advanced R"
+output: 
+  learnr::tutorial:
+  theme: "journal"
+css: "css/mystyle.css"
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+library(tidyverse)
+
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+
+
+## Welcome!
+
+Hi! This is an intr
+
+
+
+by  Hans H. Sievertsen, University of Bristol 13/2/2020
+
+
+
+
+
+## 1. The Workspace
+
+## 2. Object types
+
+## 3. Working with matrices
+
+## 4. Functions
+
+## 5. Optimizers
+
+
