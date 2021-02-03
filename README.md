@@ -9,7 +9,7 @@ This repository contains slides, exercises and solutions for the 4h R crash cour
 **Exercises**
 
 - [Exercises for part 1](https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/exercises/exercises%20for%201.%20Getting%20started%20and%20R%20basics.R)
-- [Exercises for part 2](https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/exercises/exercises%20for%203.%20Working%20with%20matrices%20in%20R.R)
+- [Exercises for part 2](https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/exercises/exercises%20for%202.%20Tidyverse.R)
 - [Exercises for part 3](https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/exercises/exercises%20for%203.%20Working%20with%20matrices%20in%20R.R)
 - [Exercises for part 4](https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/exercises/exercises%20for%204.%20Functions%2C%20control%20structures%20and%20loops%20in%20R.R)
 
