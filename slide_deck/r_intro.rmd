@@ -1,8 +1,8 @@
 ---
 author: Hans Henrik Sievertsen (h.h.sievertsen@bristol.ac.uk)
-title: "Introduction to R"
+title: "Introduction to  R"
 subtitle: "University of Bristol"
-date: "Version: January 28 - 2020"
+date: "Version: February 3 - 2021"
 output:
   beamer_presentation:
   keep_tex: no
@@ -899,7 +899,7 @@ For more details on subsetting R objects see  [chapter 9 in "R Programming for D
 **Adding a number to a matrix**
 
 - Let $\alpha$ be a number (a scalar), then $\alpha + B$ is:
-$$\alpha B= \left[\begin{matrix}\alpha +  3,\alpha + 5\\\alpha +  11,\alpha +  2\end{matrix}\right]$$
+$$\alpha +B= \left[\begin{matrix}\alpha +  3,\alpha + 5\\\alpha +  11,\alpha +  2\end{matrix}\right]$$
 
 
 - and in R:
@@ -1209,7 +1209,7 @@ summary(my_lm)
 *Manual OLS using R* 
 
 - Let's try to manually reproduce these results from lm() using the matrix tools we just covered.
-- We know that the OLS estimates in matrix form are given by:
+- We know that the OLS estimator in matrix form is given by:
 
 $$\hat{\beta}=(X^TX)^{-1}X^Ty$$
 
@@ -1264,7 +1264,7 @@ mydataset<-read_csv("example_data1.csv")
 y<-matrix(mydataset$test_year_6,ncol=1)
 ```
 
-- Note that we also could use the `[]` subsetting method, but this requires us to know the orde of the columns in the dataset.
+- Note that we also could use the `[]` subsetting method, but this requires us to know the order of the columns in the dataset.
 
 ## Application: Ordinary Least Squares
 
@@ -1576,7 +1576,7 @@ print(z)
 - We now use the tools from the matrix section and combine them with the function definitions to create our own lm function.
 
 \small
-```{r,eval=FALSE}
+```{r,eval=FALSE,message=F,warning=F}
 mylm <- function(y,x,data) {
   # specify dataset
   df<-data
@@ -1676,7 +1676,7 @@ while (x<5){
 
 **Maximum likelihood**: find the parameters that maximize the likelihood that we observe what we've observed, given an assumed functional form and  distribution.
 
-- Application: estimate the probability that a child probability participates in the summer school using a probit model.
+- Application: estimate the probability that a child  participates in the summer school using a probit model.
 
 - **Benchmark**: R's built-in function
 

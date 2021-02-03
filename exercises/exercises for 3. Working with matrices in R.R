@@ -1,5 +1,5 @@
 # exercises for "Introduction to R" part "3. Working with matrices in R".
-# by Hans Henrik Sievertsen (h.h.sievertsen@bristol.ac.uk), Jan 28, 2020.
+# by Hans Henrik Sievertsen (h.h.sievertsen@bristol.ac.uk), Feb 3, 2021.
 # Objective: getting used to working with matrices in R.
 
 

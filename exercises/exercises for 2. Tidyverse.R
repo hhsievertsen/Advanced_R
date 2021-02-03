@@ -1,5 +1,5 @@
 # exercises for "Introduction to R" part "2. Tidyverse".
-# by Hans Henrik Sievertsen (h.h.sievertsen@bristol.ac.uk), Jan 28, 2020.
+# by Hans Henrik Sievertsen (h.h.sievertsen@bristol.ac.uk), Feb 3, 2021.
 # Objective: getting used to the tidyverse package functionality
 
 

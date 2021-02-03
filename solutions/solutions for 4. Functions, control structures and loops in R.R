@@ -1,5 +1,5 @@
 # exercises for "Introduction to R" part "4. Functions, control structures and loops in R".
-# by Hans Henrik Sievertsen (h.h.sievertsen@bristol.ac.uk), Jan 28, 2020.
+# by Hans Henrik Sievertsen (h.h.sievertsen@bristol.ac.uk), Feb 3, 2021.
 # Objective: getting used to working with matrices in R.
 
 
@@ -34,7 +34,7 @@ myfunction("Hans")
 #             glm() function in R. 
 
 # Load data
-mydata<-read_csv("https://github.com/hhsievertsen/R_introduction/raw/master/datasets/example_data1.csv")
+mydata<-read_csv("https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/datasets/example_data1.csv")
 # Estimate the probit model
 probitfit<-glm(summercamp~parental_lincome+female+parental_schooling,
             family = binomial(link = "probit"), data = mydata)
@@ -45,7 +45,7 @@ summary(probitfit)
 #             as  function of parental income, parental schooling and child gender. Insert
 #             the parameters obtained in exercise 4 and calculate the log likelihood.
 # load data
-df<-read_csv("https://github.com/hhsievertsen/R_introduction/raw/master/datasets/example_data1.csv")
+df<-read_csv("https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/datasets/example_data1.csv")
 # y variable
 y<-df%>%select(summercamp)%>%as.matrix()
 # x variable 
@@ -74,7 +74,7 @@ my_loglikelihood <- function(y,x,beta,data) {
   # return (explicitly tell R to return this object)!
   return(l) 
 }
-df<-read_csv("https://github.com/hhsievertsen/R_introduction/raw/master/datasets/example_data1.csv")
+df<-read_csv("https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/datasets/example_data1.csv")
 # use the R function optim to optimize ll
 optim(par=c(0,0,0,0), fn=my_loglikelihood, control=list(fnscale = -1),
       x=c("parental_lincome","female","parental_schooling"),y="summercamp",data=df)
@@ -100,7 +100,7 @@ my_loglikelihood <- function(y,x,beta,data) {
   return(l) 
 }
 # load data 
-df<-read_csv("https://github.com/hhsievertsen/R_introduction/raw/master/datasets/example_data1.csv")
+df<-read_csv("https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/datasets/example_data1.csv")
 # starting values
 beta1<-0
 llvaluelag<--Inf

@@ -1,5 +1,5 @@
 # solutions for "Introduction to R" part "1. Getting started & R basics".
-# by Hans Henrik Sievertsen (h.h.sievertsen@bristol.ac.uk), Jan 28, 2020.
+# by Hans Henrik Sievertsen (h.h.sievertsen@bristol.ac.uk), Feb 3, 2021.
 # Objective: getting used to the R environment.
 
 

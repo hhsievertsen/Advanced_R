@@ -1,5 +1,5 @@
 # solutions for "Introduction to R" part "3. Working with matrices in R".
-# by Hans Henrik Sievertsen (h.h.sievertsen@bristol.ac.uk), Jan 28, 2020.
+# by Hans Henrik Sievertsen (h.h.sievertsen@bristol.ac.uk), Feb 3, 2021.
 # Objective: getting used to working with matrices in R.
 
 
@@ -28,7 +28,7 @@ C%*%Cinverse
 # Exercise 5: load the dataset "example_data1.csv" and estimate the following model:
 #             test_year_2=alpha0+alpha1*parental_schooling+alpha2*parental_lincome+e
 #             using OLS with the lm() function. Print the results in the console.
-mydata<-read_csv("https://github.com/hhsievertsen/R_introduction/raw/master/datasets/example_data1.csv")
+mydata<-read_csv("https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/datasets/example_data1.csv")
 lmfit<-lm(test_year_2~parental_schooling+parental_lincome,data=mydata)
 summary(lmfit)
 
