@@ -4,4 +4,5 @@ This repository contains slides, exercises and solutions for the 4h R crash cour
 
 **Data**
 
-- [https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/datasets/example_data1.csv](example_data1.csv)
+- [example_data1.csv](https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/datasets/example_data1.csv)
+- [example_data2.csv](https://raw.githubusercontent.com/hhsievertsen/Advanced_R/master/datasets/example_data2.csv)
