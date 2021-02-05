@@ -33,6 +33,6 @@
 # Exercise 6: Find the maximum likelihood estimate using the optim() function and compare
 #             the estimates to the results from exercise 4.
 
-# Exercise 7: Manually find the optimum using a while loop, but keeping all but one parameter
+# Exercise 7: Manually find the optimum using a for loop, but keeping all but one parameter
 #             fixed at the parameter values obtained in exercise 6. 
 
